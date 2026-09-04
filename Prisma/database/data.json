@@ -1,0 +1,89 @@
+{
+    "auth": {
+        "email": "admin@prisma.local",
+        "password": "Prisma123!"
+    },
+    "profile": {
+        "name": "Patrícia Nunes",
+        "email": "patricia@prisma.com",
+        "phone": "(99) 99876-5432",
+        "turmas": "1º ano, 2º ano, 3º ano",
+        "status": "Disponível"
+    },
+    "students": [
+        {
+            "name": "João Alves",
+            "class": "2º ano",
+            "age": 14,
+            "status": "Urgente"
+        },
+        {
+            "name": "Maria Silva",
+            "class": "1º ano",
+            "age": 13,
+            "status": "Atenção"
+        },
+        {
+            "name": "Lucas Pereira",
+            "class": "3º ano",
+            "age": 15,
+            "status": "Estável"
+        },
+        {
+            "name": "Regimilton",
+            "class": "3ºano",
+            "age": 55,
+            "status": "Estável"
+        }
+    ],
+    "events": [
+        {
+            "date": "05\/07",
+            "title": "Reunião pedagógica"
+        },
+        {
+            "date": "08\/07",
+            "title": "Entrega de relatório"
+        },
+        {
+            "date": "13\/07",
+            "title": "Consulta de medicação"
+        }
+    ],
+    "notes": [
+        {
+            "student": "João Alves",
+            "class": "2º ano",
+            "status": "Urgente",
+            "meta": "TDAH • 15\/03\/2012 • 14 anos",
+            "content": "O aluno apresenta dificuldades de concentração e precisa de acompanhamento semanal."
+        },
+        {
+            "student": "Regimilton",
+            "class": "3º ano",
+            "status": "Estável",
+            "meta": "",
+            "content": "Nenhuma."
+        }
+    ],
+    "medications": [
+        {
+            "name": "Paracetamol",
+            "dose": "500mg",
+            "time": "15:00"
+        }
+    ],
+    "messages": [],
+    "notifications": [
+        {
+            "title": "Nova anotação",
+            "text": "Anotação salva para Regimilton (3º ano).",
+            "read": true
+        },
+        {
+            "title": "Aluno adicionado",
+            "text": "O aluno Regimilton foi registrado no sistema.",
+            "read": true
+        }
+    ]
+}
