@@ -1,9 +1,10 @@
-# Prisma
+# PRISMA
 
-## Estrutura
+O PRISMA é uma plataforma web desenvolvida para auxiliar a Orientação Educacional e a equipe docente no acompanhamento, mediação socioemocional e identificação precoce de vulnerabilidades no ambiente escolar.
 
 ## 📁 Estrutura do Projeto
 
+```text
 Prisma/
 ├── api/
 │   └── status.php            # Verificação de status e endpoints da API
